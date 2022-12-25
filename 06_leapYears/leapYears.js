@@ -8,4 +8,8 @@ const leapYears = function(year) {
 module.exports = leapYears;
 
 /* is divisible by 4,
-if divisible by 100 then also by 400 */
+if divisible by 100 then also by 400 *
+
+year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)
+
+*/
